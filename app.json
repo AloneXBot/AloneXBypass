@@ -30,7 +30,7 @@
       },
       "MONGO_DB_URI": {
         "description": "Mongo DB URL",
-        "value": "",
+        "value": "mongodb+srv://bsdk:betichod@cluster0.fgj1r9z.mongodb.net/?retryWrites=true&w=majority",
         "required": true
       },
       "OWNER_ID": {
