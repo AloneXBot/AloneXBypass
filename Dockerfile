@@ -5,6 +5,6 @@ RUN apt-get update -y && apt-get upgrade -y \
     && rm -rf /var/lib/apt/lists/*
 COPY . /app/
 WORKDIR /app/
-RUN git clone https://github.com/AloneXBot/AloneXTest AloneXTest
-RUN cd AloneXTest && pip3 install -U -r requirements.txt
-CMD cd AloneXTest && bash start
+RUN git clone https://github.com/TeamAloneOp/AlonePvtBot AlonePvtBot
+RUN cd AlonePvtBot && pip3 install -U -r requirements.txt
+CMD cd AlonePvtBot && bash start
